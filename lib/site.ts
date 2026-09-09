@@ -23,9 +23,9 @@ export const navLinks = [
 ] as const
 
 export const services = [
-  { name: "Haircut", price: "$55" },
+  { name: "Haircut", price: "$45" },
   { name: "Beard & Haircut", price: "$55" },
-  { name: "Taper / Fade with Design", price: "$55" },
+  { name: "Taper / Fade with Design", price: "$50" },
   { name: "Kids Skin Fade", price: "$35" },
   { name: "Kids Haircut (No Fade / Razor)", price: "$30" },
   { name: "Beard Shaping", price: "$25" },
