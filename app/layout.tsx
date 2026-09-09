@@ -16,7 +16,14 @@ const montserrat = Montserrat({
   display: "swap",
 })
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL
+  : process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "https://cielo-studio.vercel.app"
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Cielo Studio | Barber Chino — Chicago",
   description:
     "Cielo Studio by Barber Chino. Licensed Chicago barber with 6+ years crafting precise cuts, master fades, and creative designs. Appointments only — book via Booksy.",
@@ -40,7 +47,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: "#0f1419",
+  themeColor: "#f5ecdc",
   width: "device-width",
   initialScale: 1,
 }
