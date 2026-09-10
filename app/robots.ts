@@ -5,7 +5,7 @@ function getSiteUrl() {
   if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
     return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
   }
-  return "https://cielo-studio.vercel.app"
+  return "https://cielo-studio-2h0zsxldr-clstudio2003-8027.vercel.app"
 }
 
 export default function robots(): MetadataRoute.Robots {

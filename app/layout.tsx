@@ -20,7 +20,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
   ? process.env.NEXT_PUBLIC_SITE_URL
   : process.env.VERCEL_PROJECT_PRODUCTION_URL
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "https://cielo-studio.vercel.app"
+    : "https://cielo-studio-2h0zsxldr-clstudio2003-8027.vercel.app"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
