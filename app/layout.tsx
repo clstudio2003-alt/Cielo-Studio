@@ -48,6 +48,7 @@ export const metadata: Metadata = {
     google: [
       "k-eC5b0iNgZfR2ztYLh1ilb2bRJBDsj4p2W6tA4gOVo",
       "OlcARbDJEo1WGtSv5ZGur3jmmnluOIE8VI1VXLCNCr8",
+      "w4i1gzxvndiDc1Ku7H1TRiEML-KlQbMj1QQUb2_CTRc",
     ],
   },
 }
