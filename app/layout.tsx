@@ -45,7 +45,10 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   verification: {
-    google: "k-eC5b0iNgZfR2ztYLh1ilb2bRJBDsj4p2W6tA4gOVo",
+    google: [
+      "k-eC5b0iNgZfR2ztYLh1ilb2bRJBDsj4p2W6tA4gOVo",
+      "OlcARbDJEo1WGtSv5ZGur3jmmnluOIE8VI1VXLCNCr8",
+    ],
   },
 }
 
